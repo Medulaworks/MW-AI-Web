@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+
+# Next.js build files
+.next/
+out/
+build/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+npm-debug.log*
+
+# System files
+.DS_Store
+Thumbs.db
+
+# TypeScript
+*.tsbuildinfo
+
+drizzle.config.json

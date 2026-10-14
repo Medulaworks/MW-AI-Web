@@ -1,0 +1,22 @@
+// Type aliases that map to seed.ts types for easy imports
+export type {
+  Org,
+  BU,
+  Asset,
+  DiscoveryItem,
+  System_ as SystemRecord,
+  DataFlow,
+  Processing,
+  AISystem,
+  Vendor,
+  Assessment,
+  Obligation,
+  Policy,
+  Control,
+  PrivacyRequest,
+  DataEgressEvent,
+  Incident,
+  Exception,
+  Evidence,
+  AuditEvent,
+} from "@/seed/seed";
